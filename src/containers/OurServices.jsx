@@ -1,5 +1,4 @@
 import React from 'react'
-import placeholder1 from '../placeholder1.png'
 import { BsWindowSidebar } from 'react-icons/bs';
 import {MdScreenSearchDesktop} from 'react-icons/md';
 import {MdShowChart} from 'react-icons/md';

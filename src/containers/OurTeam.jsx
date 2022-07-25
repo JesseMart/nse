@@ -1,5 +1,4 @@
 import React from 'react'
-import { MdCreate } from 'react-icons/md'
 import placeholder2 from '../team-placeholder.jpeg'
 
 const OurTeam = () => {
