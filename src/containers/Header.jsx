@@ -31,7 +31,7 @@ const Header = () => {
           </a>
           <div className='flex justify-start items-start flex-row mt-14'>
             {socialIcons.map((item, idx) => (
-              <div className='flex justify-center items-center flex-row mr-4 w-[26px] h-[26px]'>
+              <div key={idx} className='flex justify-center items-center flex-row mr-4 w-[26px] h-[26px]'>
                 <a href={item.link}><img src={item.icon} alt={item.name} /></a>
               </div>
             ))}

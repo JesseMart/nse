@@ -103,6 +103,45 @@ const OurServices = () => {
                 </p>
             </div>
           </div>
+          <div className='flex-1 xs:min-w-[370px] m-2 sm:p-12 p-6 sm:rounded-[40px] rounded-[30px] bg-sky-50  hover:shadow-lg hover:bg-white '>
+            <div className='flex flex-col'>
+                <div className='flex justify-center items-center bg-[#b700ff] xs:w-[70px] xs:h-[70px] w-[70px] h-[70px] rounded-full '>
+                  <div className='relative rounded-full xs:w-[32px] xs:h-[32px] w-[28px] h-[28px]'>
+                    <MdCreate style={{fontSize: '2em', color: 'white'}} />
+                  </div>
+                </div>
+                <h3 className='font-body font-semibold xs:text-[24px] xs:leading-[30px] text-[20px] leading-[26px] my-5'>Marketing Strategy</h3>
+                <p className='font-body xs:text-[20px] xs:leading-[27px] text-[16px] leading-[23px] font-normal text-[#5B6578] my-5'>
+                We will develop a strategy for your business designed to increase customer acquisition and brand awareness in conjunction with your respective business goals.
+                </p>
+            </div>
+          </div>
+          <div className='flex-1 xs:min-w-[370px] m-2 sm:p-12 p-6 sm:rounded-[40px] rounded-[30px] bg-sky-50  hover:shadow-lg hover:bg-white '>
+            <div className='flex flex-col'>
+                <div className='flex justify-center items-center bg-[#00d5ff] xs:w-[70px] xs:h-[70px] w-[70px] h-[70px] rounded-full '>
+                  <div className='relative rounded-full xs:w-[32px] xs:h-[32px] w-[28px] h-[28px]'>
+                    <MdCreate style={{fontSize: '2em', color: 'white'}} />
+                  </div>
+                </div>
+                <h3 className='font-body font-semibold xs:text-[24px] xs:leading-[30px] text-[20px] leading-[26px] my-5'>Business Consulting</h3>
+                <p className='font-body xs:text-[20px] xs:leading-[27px] text-[16px] leading-[23px] font-normal text-[#5B6578] my-5'>
+                In order to maintain a competitive edge on your competition, it’s imperative you stay ahead of the curve. Talk with our various experts about your industry and allow our creative team to help guide you in the right direction, ensuring you remain one step ahead and maximize profit.
+                </p>
+            </div>
+          </div>
+          <div className='flex-1 xs:min-w-[370px] m-2 sm:p-12 p-6 sm:rounded-[40px] rounded-[30px] bg-sky-50  hover:shadow-lg hover:bg-white '>
+            <div className='flex flex-col'>
+                <div className='flex justify-center items-center bg-[#ef2525] xs:w-[70px] xs:h-[70px] w-[70px] h-[70px] rounded-full '>
+                  <div className='relative rounded-full xs:w-[32px] xs:h-[32px] w-[28px] h-[28px]'>
+                    <MdCreate style={{fontSize: '2em', color: 'white'}} />
+                  </div>
+                </div>
+                <h3 className='font-body font-semibold xs:text-[24px] xs:leading-[30px] text-[20px] leading-[26px] my-5'>Blockchain Implementation</h3>
+                <p className='font-body xs:text-[20px] xs:leading-[27px] text-[16px] leading-[23px] font-normal text-[#5B6578] my-5'>
+                Talk with our experts about the blockchain and what it means for you and your industry. We have personnel who can develop and create NFT technology, as well as individuals who are researching future applications within this emerging field. Start planning for the future, today.
+                </p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
