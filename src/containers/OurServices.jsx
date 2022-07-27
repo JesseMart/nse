@@ -5,6 +5,9 @@ import {MdShowChart} from 'react-icons/md';
 import {FiMail} from 'react-icons/fi';
 import {FaRegThumbsUp} from 'react-icons/fa';
 import {MdCreate} from 'react-icons/md'
+
+
+
 // bg-[#00d5ff] blue
 // bg-[#b700ff] ourple
 // bg-[#ef2525] red
@@ -16,13 +19,13 @@ const OurServices = () => {
           <h2 className='font-body text-primary font-bold sm:text-[48px] sm:leading-[52px] text-[30px] leading-[36px] text-center' >
             Our Services
           </h2>
-          <p className='font-body xs:text-[20px] xs:leading-[27px] text-[16px] leading-[23px] font-normal sm:w-[75%] w-[100%] text-center text-[#5B6478] mt-5'>
-            Lorem ipsum dolor sit amet,
-            consectetur adipisicing elit. Voluptates eaque impedit,
-            laborum harum ratione temporibus quos! Optio eveniet officiis
-            voluptates similique repellendus nemo, quo amet. Dolorum, harum eaque.
-            Nemo, beatae?
+          <p className='font-body xs:text-[27px] xs:leading-[27px] text-[16px] leading-[23px] font-normal w-[100%] text-center text-[#5B6478] mt-10'>
+            <span className='text-blue-500 font-semibold'>Let's Solve Problems</span> 
           </p>
+          <p className='font-body xs:text-[27px] xs:leading-[27px] text-[16px] leading-[23px] font-normal w-[100%] text-center text-[#5B6478] mt-2'>
+            <span className=''>Advertising On All Fronts</span>
+          </p>
+          
         </div>
         <div className='w-full flex justify-center items-center flex-wrap mt-10'>
           <div className='flex-1 xs:min-w-[370px] m-2 sm:p-12 p-6 sm:rounded-[40px] rounded-[30px] bg-sky-50  hover:shadow-lg hover:bg-white '>

@@ -1,6 +1,6 @@
 import { React, useState } from 'react'
 import { client } from '../client';
-import { socialIcons, servicesAvailable } from '../utils/constants';
+import {servicesAvailable } from '../utils/constants';
 
 
 
@@ -47,9 +47,7 @@ const ContactUs = () => {
 
 
   return (
-
-
-    <div id='' className='flex w justify-center items-center sm:p-16 xs:p-8 px-6 py-12 border-t '>
+    <div id='ContactUs' className='flex w justify-center items-center sm:p-16 xs:p-8 px-6 py-12 border-t mt-25'>
       <div className='flex justify-center items-center 3xl:max-w-[1280px] w-full flex-col'>
         <h2 className='font-body text-primary font-bold md:text-[64px] md:leading-[70px] text-[40px] leading-[46px] text-center mb-10 transform-none'>
           Lorem Ipsum placeholder text!
@@ -95,21 +93,6 @@ const ContactUs = () => {
             <h3 className='font-body text-primary font-bold md:text-[64px] md:leading-[70px] text-[40px] leading-[46px] text-center mb-10 transform-none'>Lorem Ipsum! <br /> Lorem Ipsum Lorem Ipsum Lorem Ipsum</h3>
           </div>
         )}
-        <div className=''>
-
-          <div className='flex justify-start items-start flex-row mt-14'>
-            {socialIcons.map((item, idx) => (
-              <div key={idx} className='flex justify-center items-center flex-row mr-4 w-[26px] h-[26px] mb-4'>
-                <a href={item.link}><img src={item.icon} alt={item.name} /></a>
-              </div>
-            ))}
-          </div>
-        </div>
-
-        <div className='font-body flex justify-center items-center flex-col text-sm lg:text-lg'>
-          <p >@2022 NSE Advertising</p>
-          <p >ALL RIGHTS RESERVED</p>
-        </div>
       </div>
     </div>
   )

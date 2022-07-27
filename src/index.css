@@ -17,9 +17,32 @@ code {
 @layer base {
   :root {
     --color-primary: 31 36 40;
+
   }
 }
 @layer components {
+
+  .glass-container{
+    background: hsla(0, 0%, 100%, .25);
+  }
+  .animation-menu{
+    transform-origin: top center;
+    animation: translateX 300ms ease-in-out;
+  }
+  @keyframes translateX {
+    0% {
+      opacity:0;
+      transform: translateX(60px)
+    }
+    80% {
+      transform: translateX(-5px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
   .hero-height{
     min-height : calc(100vh - 98px);
   }

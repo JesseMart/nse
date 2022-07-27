@@ -5,7 +5,7 @@ import placeholder from '../ai.png';
 
 const Header = () => {
   return (
-    <div className='flex justify-center items-center sm:px-16 px-6 sm:pb-16 xs:pb-8 pb-12 pt-6 hero-height '>
+    <div id='Home' className='flex justify-center items-center sm:px-16 px-6 sm:pb-16 xs:pb-8 pb-12 pt-20   hero-height '>
       <div className='flex justify-center items-center 3xl:max-w-[1280px] w-full pt-[98px] flex-col lg:flex-row'>
         <div className='flex-1 flex flex-col justify-center items-start' style={{ opacity: 1, transform: 'none' }}>
           <h1 className='font-[Poppins] text-black 
