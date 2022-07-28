@@ -1,5 +1,5 @@
 import './App.css';
-import {Navbar, CTA} from './components';
+import {Navbar, CTA, Title, CenteredText, CTA2} from './components';
 import Footer from './components/Footer';
 import {Header, ContactUs, WhyUs, OurServices, OurTeam} from './containers';
 
@@ -10,10 +10,13 @@ function App() {
     <div >
       <Navbar />
       <Header />
-      <WhyUs />
-      <CTA />
+      <Title />
       <OurServices />
-      <OurTeam />
+      <CTA />
+      <WhyUs />
+      <CTA2 />
+      <CenteredText />
+      {/* <OurTeam /> */}
       <ContactUs />
       <Footer />
     </div>

@@ -1,5 +1,8 @@
 import React from 'react'
 import placeholder2 from '../team-placeholder.jpeg'
+import jay1 from '../utils/media/jay-1.png';
+import hunter1 from '../utils/media/hunter-hs.jpeg'
+
 
 const OurTeam = () => {
   return (
@@ -9,7 +12,7 @@ const OurTeam = () => {
         <div className='w-full flex justify-center items-center flex-wrap mt-10'>
           <div className='service-card relative sm:w-[350px] w-full bg-white flex-col xs:m-7 my-5 mx-0 hover:shadow-xl overflow-hidden transform-none'>
             <div className='relative mx-h-[328px] w-full overflow-hidden rounded-full object-cover'>
-              <img src={placeholder2} alt='service' />
+              <img src={jay1} alt='service' />
             </div>
             <div className='flex w-full justify-start flex-col sm:p-10 p-6 service-desc'>
               <h3 className='font-body font-semibold xs:text-[24px] xs:leading-[30px] text-[20px] leading-[26px] text-[#1465df]'>Jay Spiegel</h3>
@@ -28,7 +31,7 @@ const OurTeam = () => {
           </div>
           <div className='service-card relative sm:w-[350px] w-full bg-white flex-col xs:m-7 my-5 mx-0 hover:shadow-xl overflow-hidden transform-none'>
             <div className='relative mx-h-[328px] w-full overflow-hidden rounded-full object-cover'>
-              <img src={placeholder2} alt='service' />
+              <img src={hunter1} alt='service' />
             </div>
             <div className='flex w-full justify-start flex-col sm:p-10 p-6 service-desc'>
               <h3 className='font-body font-semibold xs:text-[24px] xs:leading-[30px] text-[20px] leading-[26px] text-[#1465df]'>Hunter Newton</h3>

@@ -47,13 +47,13 @@ const ContactUs = () => {
 
 
   return (
-    <div id='ContactUs' className='flex w justify-center items-center sm:p-16 xs:p-8 px-6 py-12 border-t mt-25'>
+    <div id='ContactUs' className='bg-sky-50 flex w justify-center items-center sm:p-16 xs:p-8 px-6 py-12  mt-25'>
       <div className='flex justify-center items-center 3xl:max-w-[1280px] w-full flex-col'>
-        <h2 className='font-body text-primary font-bold md:text-[64px] md:leading-[70px] text-[40px] leading-[46px] text-center mb-10 transform-none'>
-          Lorem Ipsum placeholder text!
+        <h2 className='font-body text-primary font-bold md:text-[50px] md:leading-[70px] text-[40px] leading-[46px] text-center mb-10 transform-none'>
+        Are you ready to take your business to new horizons?
         </h2>
         <p className='font-body font-light sm:w-[80%] w-[100%] text-center text-[#5B6478] mt-5 xs:text-[20px] xs:leading-[27px] text-[16px] leading-[23px] '>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi tenetur asperiores reprehenderit. Excepturi commodi soluta quisquam ut eligendi aperiam, atque, id debitis sequi magni aliquam quod distinctio, vel ad doloribus.
+          Please fill out this form 
         </p>
         {!isFormSubmitted ? (
           <div className='flex justify-center items-center flex-1 flex-col w-full mt-10 mx-8 md:w-full md:m-1'>

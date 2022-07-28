@@ -16,6 +16,9 @@ module.exports = {
       '3xl': '1700px',
     },
     extend: {
+      backgroundImage: {
+        'hero-whyus' : "url('/src/utils/media/why-us.jpg')"
+      },
       fontSize: {
         14: '14px',
       },

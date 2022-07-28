@@ -8,15 +8,15 @@ const Header = () => {
     <div id='Home' className='flex justify-center items-center sm:px-16 px-6 sm:pb-16 xs:pb-8 pb-12 pt-20   hero-height '>
       <div className='flex justify-center items-center 3xl:max-w-[1280px] w-full pt-[98px] flex-col lg:flex-row'>
         <div className='flex-1 flex flex-col justify-center items-start' style={{ opacity: 1, transform: 'none' }}>
-          <h1 className='font-[Poppins] text-black 
+          <h1 className='font-body text-black 
             font-bold md:text-[64px] md:leading-[70px]
              text-[40px] leading-[46px] tracking-[-0.5%]
-              text-left'>Full Spectrum Advertising
+              text-left'>Northern Star Enterprises
           </h1>
           <p className='font-body xs:text-[20px]
            xs:leading-[27px] text-[17px] leading-[23px]
             font-normal text-[#5B6478] mt-5 mb-10 '>
-            web desgin • outbound marketing • seo • social media marketing
+            Preparing your business for the world of tomorrow, today.
           </p>
           <a href="#ContactUs">
             <div className='flex flex-row justify-center items-center py-3 px-6 rounded-full cursor-pointer bg-[#2190ff]'>
