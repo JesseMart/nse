@@ -1,7 +1,7 @@
 import './App.css';
 import {Navbar, CTA, Title, CenteredText, CTA2} from './components';
 import Footer from './components/Footer';
-import {Header, ContactUs, WhyUs, OurServices, OurTeam} from './containers';
+import {Header, ContactUs, WhyUs, OurServices} from './containers';
 
 
 

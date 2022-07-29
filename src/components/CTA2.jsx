@@ -11,7 +11,9 @@ const CTA = () => {
             </h2>
             <div className='mt-8 flex lg:mt-0 lg:flex-shrink-0'>
                 <div className='inline-flex rounded-md shadow'>
-                    <a href="https://forms.gle/TVbwJ6seVxCQY5Me8" target="_blank" 
+                    <a href="https://forms.gle/TVbwJ6seVxCQY5Me8" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
                     className='inline-flex items-center
                      justify-center px-5 py-3 border border-transparent 
                      text-body font-medium rounded-md

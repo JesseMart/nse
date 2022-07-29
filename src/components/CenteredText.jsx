@@ -2,7 +2,8 @@ import React from 'react'
 
 const CenteredText = () => {
     return (
-        <div id='FSA' className='flex justify-center items-center 3xl:max-w-[1280px] w-full overflow-hidden flex-col my-20'>
+        <div id='FSA' className='flex justify-center items-center sm:p-16 xs:p-8 px-6 py-12 '>
+        <div  className='flex justify-center items-center 3xl:max-w-[1280px] w-full overflow-hidden flex-col my-20'>
             <h2 className='font-body text-primary font-bold text-[30px] leading-[36px] sm:text-[48px] sm:leading-[52px] text-center transform-none'>
                 What is <span className='text-blue-600'>Full Spectrum Advertising?</span>
             </h2>
@@ -26,6 +27,7 @@ const CenteredText = () => {
                     </p>
                 </div>
             </div>
+        </div>
         </div>
     )
 }
