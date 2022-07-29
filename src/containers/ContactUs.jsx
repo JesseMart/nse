@@ -90,7 +90,7 @@ const ContactUs = () => {
 
         ) : (
           <div className='mt-5'>
-            <h3 className='font-body text-primary font-bold md:text-[64px] md:leading-[70px] text-[40px] leading-[46px] text-center mb-10 transform-none'>Lorem Ipsum! <br /> Lorem Ipsum Lorem Ipsum Lorem Ipsum</h3>
+            <h3 className='font-normal text-primary md:text-[64px] md:leading-[70px] text-[40px] leading-[46px] text-center mb-10 transform-none'><span className='text-blue-600 font-bold'>Thank you for your interest!</span> <br /> We will reach out to you ASAP & start our journey together.</h3>
           </div>
         )}
       </div>

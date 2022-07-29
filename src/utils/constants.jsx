@@ -21,7 +21,19 @@ export const servicesAvailable =  [
     {
         name: 'Content-Creation',
         value: 'Content Creation',
-    }
+    },
+    {
+        name: 'Marketing-Strategy',
+        value: 'Marketing Strategy',
+    },
+    {
+        name: 'Business-Consulting',
+        value: 'Business Consulting',
+    },
+    {
+        name: 'Blockchain-Implementation',
+        value: 'Blockchain Implementation',
+    },
 ]
 
 
