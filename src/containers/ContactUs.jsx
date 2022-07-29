@@ -78,7 +78,7 @@ const ContactUs = () => {
                   <option
                     key={item.name}
                     value={item.name}
-                    className='outline-none capitalize bg-white text-gray-200 text-md p-2 hover:bg-slate-300'
+                    className='outline-none capitalize bg-white text-gray-800 text-md p-2 hover:bg-slate-300'
                   >
                     {item.name}
                   </option>

@@ -64,7 +64,7 @@ const OurServices = () => {
               </div>
               <h3 className='font-body font-semibold xs:text-[24px] xs:leading-[30px] text-[20px] leading-[26px] my-5'>Social Media Management</h3>
               <p className='font-body xs:text-[20px] xs:leading-[27px] text-[16px] leading-[23px] font-normal text-[#5B6578] my-5'>
-            Posting on Social Media is <span className='font-bold text-gray-900'>ESSENTIAL</span> to competing in today’s digital world. Allow our experts to manage your accounts ranging from but not limited to: Instagram, Tik Tok, Facebook, YouTube and Twitter. We will focus on operating your accounts while you focus what matters most, your business.
+            Posting on Social Media is <span className='font-bold text-gray-900'>ESSENTIAL</span> to competing in today’s digital world. Allow our experts to manage your accounts ranging from but not limited to: <span className='font-bold text-gray-900'>Instagram, Tik Tok, Facebook, YouTube and Twitter.</span> We will focus on operating your accounts while you focus what matters most, your business.
               </p>
             </div>
           </div>
