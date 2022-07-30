@@ -5,9 +5,9 @@ import { MdShowChart } from 'react-icons/md';
 import { FiMail } from 'react-icons/fi';
 import { FaRegThumbsUp } from 'react-icons/fa';
 import { ImVideoCamera } from 'react-icons/im'
-import {BsClipboardData} from 'react-icons/bs'
-import {FaPeopleArrows} from 'react-icons/fa'
-import {GoFileBinary} from 'react-icons/go'
+import { BsClipboardData } from 'react-icons/bs'
+import { FaPeopleArrows } from 'react-icons/fa'
+import { GoFileBinary } from 'react-icons/go'
 
 // bg-[#00d5ff] blue
 // bg-[#b700ff] ourple
@@ -16,19 +16,11 @@ const OurServices = () => {
   return (
     <div id='OurServices' className='flex justify-center items-center sm:p-16 xs:p-8 px-6 py-12'>
       <div className='flex justify-center items-center 3xl:max-w-[1280px] w-full flex-col'>
-        <div className='flex flex-col items-center transform-none'>
-          <h2 className='font-body text-primary font-bold sm:text-[48px] sm:leading-[52px] text-[30px] leading-[36px] text-center my-10' >
-            Our Services
-          </h2>
-          {/* <p className='font-body xs:text-[27px] xs:leading-[27px] text-[16px] leading-[23px] font-normal w-[100%] text-center text-[#5B6478] mt-10'>
-            <span className='text-blue-500 font-semibold'>We Solve Problems</span>
-          </p>
-          <p className='font-body xs:text-[27px] xs:leading-[27px] text-[16px] leading-[23px] font-normal w-[100%] text-center text-[#5B6478] mt-2'>
-            <span className=''>Advertising On All Fronts</span>
-          </p> */}
 
-        </div>
-        <div className='w-full flex justify-center items-center flex-wrap mt-10'>
+        <h2 className='font-body text-primary font-bold sm:text-[48px] sm:leading-[52px] text-[30px] leading-[36px] text-center my-10' >
+          Our Services
+        </h2>
+        <div className='flex justify-center items-center flex-wrap mt-10 sm-w:flex-col'>
           <div className='flex-1 xs:min-w-[370px] xs:h-[37rem] m-2 sm:p-12 p-6 sm:rounded-[40px] rounded-[30px] bg-sky-50  hover:shadow-lg hover:bg-white '>
             <div className='flex flex-col'>
               <div className='flex justify-center items-center bg-[#b700ff] xs:w-[70px] xs:h-[70px] w-[70px] h-[70px] rounded-full '>
@@ -38,7 +30,7 @@ const OurServices = () => {
               </div>
               <h3 className='font-body font-semibold xs:text-[24px] xs:leading-[30px] text-[20px] leading-[26px] my-5'>Web Development</h3>
               <p className='font-body xs:text-[20px] xs:leading-[27px] text-[16px] leading-[23px] font-normal text-[#5B6578] my-5'>
-              Allow our team of talented and experienced developers to create a website that delivers strong first impressions and ends with lead conversions. <span className='font-bold text-gray-900'>Your website is your first impression</span> to consumers, ensure it’s a good one by trusting us to get the job done right the first time.
+                Allow our team of talented and experienced developers to create a website that delivers strong first impressions and ends with lead conversions. <span className='font-bold text-gray-900'>Your website is your first impression</span> to consumers, ensure it’s a good one by trusting us to get the job done right the first time.
               </p>
             </div>
           </div>
@@ -64,7 +56,7 @@ const OurServices = () => {
               </div>
               <h3 className='font-body font-semibold xs:text-[24px] xs:leading-[30px] text-[20px] leading-[26px] my-5'>Social Media Management</h3>
               <p className='font-body xs:text-[20px] xs:leading-[27px] text-[16px] leading-[23px] font-normal text-[#5B6578] my-5'>
-            Posting on Social Media is <span className='font-bold text-gray-900'>ESSENTIAL</span> to competing in today’s digital world. Allow our experts to manage your accounts ranging from but not limited to: <span className='font-bold text-gray-900'>Instagram, Tik Tok, Facebook, YouTube and Twitter.</span> We will focus on operating your accounts while you focus what matters most, your business.
+                Posting on Social Media is <span className='font-bold text-gray-900'>ESSENTIAL</span> to competing in today’s digital world. Allow our experts to manage your accounts ranging from but not limited to: <span className='font-bold text-gray-900'>Instagram, Tik Tok, Facebook, YouTube and Twitter.</span> We will focus on operating your accounts while you focus what matters most, your business.
               </p>
             </div>
           </div>
@@ -77,7 +69,7 @@ const OurServices = () => {
               </div>
               <h3 className='font-body font-semibold xs:text-[24px] xs:leading-[30px] text-[20px] leading-[26px] my-5'>Outbound Marketing</h3>
               <p className='font-body xs:text-[20px] xs:leading-[27px] text-[16px] leading-[23px] font-normal text-[#5B6578] my-5'>
-              Traditional outbound marketing techniques such as <span className='text-gray-900 font-bold'>mailers, billboards and other forms of print advertising</span> are still relevant today. See if this approach can benefit the industry your business serves by getting in contact with our advertising experts today.
+                Traditional outbound marketing techniques such as <span className='text-gray-900 font-bold'>mailers, billboards and other forms of print advertising</span> are still relevant today. See if this approach can benefit the industry your business serves by getting in contact with our advertising experts today.
               </p>
             </div>
           </div>
@@ -90,7 +82,7 @@ const OurServices = () => {
               </div>
               <h3 className='font-body font-semibold xs:text-[24px] xs:leading-[30px] text-[20px] leading-[26px] my-5'>PPC</h3>
               <p className='font-body xs:text-[20px] xs:leading-[27px] text-[16px] leading-[23px] font-normal text-[#5B6578] my-5'>
-              Pay Per Click marketing is the cheat code of the digital world. If you are willing to <span className='text-gray-900 font-bold'>pay your way to the top</span> and are looking for <span className='text-gray-900 font-bold'>immediate ROI</span> this is the way to go. Please be aware that even though this strategy is effective, we strongly recommend SEO and other organic approaches to be utilized first.
+                Pay Per Click marketing is the cheat code of the digital world. If you are willing to <span className='text-gray-900 font-bold'>pay your way to the top</span> and are looking for <span className='text-gray-900 font-bold'>immediate ROI</span> this is the way to go. Please be aware that even though this strategy is effective, we strongly recommend SEO and other organic approaches to be utilized first.
               </p>
             </div>
           </div>
@@ -103,7 +95,7 @@ const OurServices = () => {
               </div>
               <h3 className='font-body font-semibold xs:text-[24px] xs:leading-[30px] text-[20px] leading-[26px] my-5'>Content Creation</h3>
               <p className='font-body xs:text-[20px] xs:leading-[27px] text-[16px] leading-[23px] font-normal text-[#5B6578] my-5'>
-              <span className='text-gray-900 font-bold'>Content is KING.</span> To win the battle for attention you need content that provides value, captivates and engages your customers. Trust experts to create content that people want to see while increasing your brand's value and visibility.
+                <span className='text-gray-900 font-bold'>Content is KING.</span> To win the battle for attention you need content that provides value, captivates and engages your customers. Trust experts to create content that people want to see while increasing your brand's value and visibility.
               </p>
             </div>
           </div>
@@ -120,7 +112,7 @@ const OurServices = () => {
               </p>
             </div>
           </div>
-          <div className='flex-1 xs:min-w-[370px] xs:h-[37rem]  m-2 sm:p-12 p-6 sm:rounded-[40px] rounded-[30px] bg-sky-50  hover:shadow-lg hover:bg-white '>
+          <div className='flex-1 xs:min-w-[370px] xs:h-[37rem] m-2 sm:p-12 p-6 sm:rounded-[40px] rounded-[30px] bg-sky-50  hover:shadow-lg hover:bg-white '>
             <div className='flex flex-col'>
               <div className='flex justify-center items-center bg-[#b700ff] xs:w-[70px] xs:h-[70px] w-[70px] h-[70px] rounded-full '>
                 <div className='relative rounded-full xs:w-[32px] xs:h-[32px] w-[28px] h-[28px]'>
@@ -148,7 +140,9 @@ const OurServices = () => {
           </div>
         </div>
       </div>
+
     </div>
+
   )
 }
 
