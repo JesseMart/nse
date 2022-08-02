@@ -69,7 +69,7 @@ const Header = () => {
             {/* <div class="wheel"></div> */}
             <img alt="northern star enterprises llc logo" src={logo} className='lg-w:w-[80px] lg-w:mt-20'/>
           
-          <div>
+          <div className="mr-[10px]">
             <span className="m_scroll_arrows unu"></span>
             <span className="m_scroll_arrows doi"></span>
             <span className="m_scroll_arrows trei"></span>
