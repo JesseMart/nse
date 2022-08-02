@@ -10,6 +10,7 @@ module.exports = {
     },
     screens: {
       'sm-w' : {'max':'390px'},
+      'lg-w': {'max':'1023px'},
       'xs' : '400px',
       'sm' : '640px',
       'md' : '768px',

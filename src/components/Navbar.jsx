@@ -23,12 +23,12 @@ const Navbar = () => {
 
     return (
         <div className={scrolled ? " glass-container fixed w-full md:flex-end z-[10] sm:px-16 px-6 shadow-lg shadow-slate-300 transition ease-in flex sm:justify-between justify-end items-center py-4 h-[100px]" : 'bg-white fixed w-full z-[10] sm:px-16 px-6 shadow-none transition ease-in flex sm:justify-between justify-end items-center py-4'}>
-            <div><a href="#OurServices" className='md:flex hidden font-body font-semibold leading-[22px] cursor-pointer text-[16px] text-primary hover:text-[#969BA5]'>Our Services</a></div>
-            <div><a href="#WhyUs" className='md:flex hidden font-body font-semibold leading-[22px] cursor-pointer text-[16px] text-primary hover:text-[#969BA5]'>Why Us</a></div>
+            <div><a href="#OurServices" className='md:flex hidden font-body font-semibold leading-[22px] cursor-pointer text-[16px] text-primary hover:text-sky-600 underline-anim no-underline'>Our Services</a></div>
+            <div><a href="#WhyUs" className='md:flex hidden font-body font-semibold leading-[22px] cursor-pointer text-[16px] text-primary hover:text-sky-600 underline-anim no-underline'>Why Us</a></div>
             <div><a href='#Home'><img src={logo} alt='nseLogo' className='w-[100px] md:w-[130px]' /></a></div>
             {/* <div><a href="#OurTeam" className='md:flex hidden font-body font-normal leading-[22px] cursor-pointer text-[16px] text-primary hover:text-[#969BA5]'>Our Team</a></div> */}
-            <div><a href="#FSA" className='md:flex hidden font-body font-semibold leading-[22px] cursor-pointer text-[16px] text-primary hover:text-[#969BA5]'>Full Spectrum</a></div>
-            <div><a href="#ContactUs" className='md:flex hidden font-body font-semibold leading-[22px] cursor-pointer text-[16px] text-primary hover:text-[#969BA5]'>Contact Us</a></div>
+            <div><a href="#FSA" className='md:flex hidden font-body font-semibold leading-[22px] cursor-pointer text-[16px] text-primary hover:text-sky-600 underline-anim no-underline'>Full Spectrum</a></div>
+            <div><a href="#ContactUs" className='md:flex hidden font-body font-semibold leading-[22px] cursor-pointer text-[16px] text-primary hover:text-sky-600 underline-anim no-underline'>Contact Us</a></div>
             {/* <a href="#Blog">Blog</a> */}
             <div className='md:hidden flex justify-center items-center relative'>
                 <div className='relative mt-2 w-10'>
